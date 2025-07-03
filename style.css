@@ -8,6 +8,7 @@
     background-color: black;
     gap: 10px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 #machinationsWrapper {
@@ -23,10 +24,22 @@
    width: max-content;
 }
 
-#resultWrapper {
+#inputWrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding-left: 6px;
+}
+
+#inputArea {
     display: flex;
-    height: 42px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
     background-color: white;
+    width: 80px;
     border: none;
     border-radius: 10px;
 }
