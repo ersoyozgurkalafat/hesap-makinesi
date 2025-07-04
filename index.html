@@ -10,39 +10,41 @@
 
 <body>
     <div id="container">
-        <div id="machinationsWrapper">
-            <div id="leftSection">
-                <div id="inputWrapper">
-                    <span id="inputArea"></span>
-                    <button id="clear" class="num-button" onclick="addParam('C')">C</button>
-                </div>
-                <div id="numpadWrapper">
-                    <button id="7" class="num-button" onclick="addParam(7)">7</button>
-                    <button id="8" class="num-button" onclick="addParam(8)">8</button>
-                    <button id="9" class="num-button" onclick="addParam(9)">9</button>
-                    <button id="4" class="num-button" onclick="addParam(4)">4</button>
-                    <button id="5" class="num-button" onclick="addParam(5)">5</button>
-                    <button id="6" class="num-button" onclick="addParam(6)">6</button>
-                    <button id="1" class="num-button" onclick="addParam(1)">1</button>
-                    <button id="2" class="num-button" onclick="addParam(2)">2</button>
-                    <button id="3" class="num-button" onclick="addParam(3)">3</button>
-                </div>
-                <div id="numpadBottom">
-                    <button id="zero" class="num-button" onclick="addParam(0)">0</button>
-                    <button id="quotation" class="num-button"  onclick="addParam('.')">,</button>
+        <div id="machinationsContainer">
+            <div id="machinationsWrapper">
+                <div id="leftSection">
+                    <div id="inputWrapper">
+                        <span id="inputArea"></span>
+                        <button id="clear" class="num-button" onclick="addParam('C')">C</button>
+                    </div>
+                    <div id="numpadWrapper">
+                        <button id="7" class="num-button" onclick="addParam(7)">7</button>
+                        <button id="8" class="num-button" onclick="addParam(8)">8</button>
+                        <button id="9" class="num-button" onclick="addParam(9)">9</button>
+                        <button id="4" class="num-button" onclick="addParam(4)">4</button>
+                        <button id="5" class="num-button" onclick="addParam(5)">5</button>
+                        <button id="6" class="num-button" onclick="addParam(6)">6</button>
+                        <button id="1" class="num-button" onclick="addParam(1)">1</button>
+                        <button id="2" class="num-button" onclick="addParam(2)">2</button>
+                        <button id="3" class="num-button" onclick="addParam(3)">3</button>
+                    </div>
+                    <div id="numpadBottom">
+                        <button id="zero" class="num-button" onclick="addParam(0)">0</button>
+                        <button id="quotation" class="num-button" onclick="addParam('.')">,</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div id="machinations">
-            <button id="division" class="operation-button" onclick="addParam('/')">÷</button>
-            <button id="multiply" class="operation-button" onclick="addParam('*')">x</button>
-            <button id="minus" class="operation-button" onclick="addParam('-')">-</button>
-            <button id="sum" class="operation-button" onclick="addParam('+')">+</button>
-            <button id="calculate" class="operation-button" onclick="addParam('=')">=</button>
+            <div id="machinations">
+                <button id="division" class="operation-button" onclick="addParam('/')">÷</button>
+                <button id="multiply" class="operation-button" onclick="addParam('*')">x</button>
+                <button id="minus" class="operation-button" onclick="addParam('-')">-</button>
+                <button id="sum" class="operation-button" onclick="addParam('+')">+</button>
+                <button id="calculate" class="operation-button" onclick="addParam('=')">=</button>
+            </div>
         </div>
-    </div>
     </div>
 </body>
 <script src="hesap-makinesi.js"></script>
+
 </html>
